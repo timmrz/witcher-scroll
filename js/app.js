@@ -1,10 +1,7 @@
 new Swiper('.swiper', {
-    speed: 2000,
-    mousewheel: {
-        enabled: true,
-        sensitivity: 2
-    },
+    speed: 1200,
+    mousewheel: true,
     spaceBetween: 18,
     parallax: true,
-    freeMode: true
+    longSwipesMs: 1200,
 })

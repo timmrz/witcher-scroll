@@ -21,7 +21,6 @@ html, body {
     position: absolute;
     inset: 0;
     background-size: cover;
-    transform-style: preserve-3d;
     background-position: center center;
 }
 
@@ -38,6 +37,7 @@ html, body {
 }
 
 .slider__wrapper, .slider__layer {
+    transform-style: preserve-3d;
     will-change: transform;
     transition: var(--transition) !important;
 }
